@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: brown;
+}
+
+.areaPrincipal { 
+    background-image: url("../img/Barbacao.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 28rem;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+
+
+
+#encabezado {
+   
+    height: 200px;
+    text-align: center;
+    background-image: url("../img/Barbacoa\ \'\'Virrey\'1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px 180px;
+   
+
+}
+
+
+.piePagina{
+    width: 100%;
+    height: 100px;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+
+#menu{
+    text-align: center;
+    height: 40px;
+    position: relative;
+    top: 200px;
+
+    
+    
+}
+
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    
+
+}
+
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+    
+}
+
+li a:hover{
+
+    background-color: black;
+    
+}
+
+#datos {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .direccion{
+
+          display: flex;
+         
+ }
+
+ .direc{
+
+    background-color: white;
+    background-repeat: center;
+    padding: 20px;
+    margin: 40px 270px;
+ }
+
+
+ *{
+    box-sizing: border-box;
+ }
+
+ body{
+       margin: 0;
+       padding: 0;
+ }
+
+ img{
+    width: 100%;
+ }
+
+.Galeria{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+ }
+
+ .fotos{
+    flex: 25%;
+    padding: 5px;
+ }
+
+ .fotos img{
+    margin-top: 5px;
+ }
+
+ @media (max-width: 800px){
+    .fotos{
+        flex: 50%;
+    }
+ }
+
+ @media (max-width: 600px){
+    .fotos{
+        flex: 100%;
+    }
+ }
+
+ 
+ *{
+    box-sizing: border-box;
+ }
+
+ body{
+       margin: 0;
+       padding: 0;
+ }
+
+.catalogo{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+ }
+
+ img{
+
+    width: 40%;
+ }
+
+ .precios{
+    margin-top: 200px;
+ }
+
+ .Nosotros { 
+    background-image: url("../img/Barbacao.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 28rem;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+
+#descripcion {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
